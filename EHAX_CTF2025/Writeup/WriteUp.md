@@ -5,11 +5,11 @@
 
 - Ở challenges này ta được cung cấp 1 file `exe` được biên dịch bằng `pyinstaller`. Ta sẽ tiến hành decompile lại file để xem source code của chương trình.
 
-    ![alt text](image.png)
+    ![alt text](https://github.com/AFatc4t/CTF2025/blob/main/EHAX_CTF2025/Writeup/Img/image.png)
 
 - Sử dụng `pydumpck` hoặc `pyinstxtractor` để decompile file python được biên dịch sang `exe`.
 
-    ![alt text](image-2.png)
+    ![alt text](https://github.com/AFatc4t/CTF2025/blob/main/EHAX_CTF2025/Writeup/Img/image-2.png)
 
 - Sau khi decompile xong ta sẽ sử dụng `pycdc` để decompile lại từ file `pyc` sang file `.py`.
 
@@ -133,19 +133,19 @@ if __name__ == '__main__':
 
 # 🍕 Pizzatron 3000 and 🍕 Pizzatron 9000 (Rev)
 
-![alt text](image-3.png)
+![alt text](https://github.com/AFatc4t/CTF2025/blob/main/EHAX_CTF2025/Writeup/Img/image-3.png)
 
 - Bài này ta có được các file `.swf` từ tác giả. Ta sẽ sử dụng `JPEXS Flash Decompiler` để decompile các file đó và đọc xem bên trong nó có những gì. 
 
-    ![alt text](image-4.png)
+    ![alt text](https://github.com/AFatc4t/CTF2025/blob/main/EHAX_CTF2025/Writeup/Img/image-4.png)
 
 - Sau khi check tất cả các file text thì tìm được flag trong 1 button.
-    ![alt text](image-6.png)
-    ![alt text](image-5.png)
+    ![alt text](https://github.com/AFatc4t/CTF2025/blob/main/EHAX_CTF2025/Writeup/Img/image-6.png)
+    ![alt text](https://github.com/AFatc4t/CTF2025/blob/main/EHAX_CTF2025/Writeup/Img/image-5.png)
 
 - Tiếp tục check hết source code và các file audio. Có thể nghe được 1 file sau sử dụng để đọc flag. 
 
-    ![alt text](image-7.png)
+    ![alt text](https://github.com/AFatc4t/CTF2025/blob/main/EHAX_CTF2025/Writeup/Img/image-7.png)
 
 - Nghe file audio và lấy flag. 
 
@@ -154,7 +154,7 @@ EH4X{}
 ```
 
 # 🕺 math-moves (Rev)
-![alt text](image-13.png)
+![alt text](https://github.com/AFatc4t/CTF2025/blob/main/EHAX_CTF2025/Writeup/Img/image-13.png)
 
 - Bài này cũng được dựng từ python lên thành file exe. Sau khi decompile lại đọc source thì mục tiêu của chúng ta sẽ là tìm 4 giá trị để di chuyển sao cho ghép được đúng bức tranh yêu cầu.
 
@@ -334,15 +334,15 @@ Flag: EH4X{4.0_13.7015_9.1757_878.6}
 
 # Retrieve the flag (Misc)
 
-![alt text](image-8.png)
+![alt text](https://github.com/AFatc4t/CTF2025/blob/main/EHAX_CTF2025/Writeup/Img/image-8.png)
 
 - Ta được cung cấp 2 file 1 file audio và 1 file zip có chứa password.
 
-    ![alt text](image-9.png)
+    ![alt text](https://github.com/AFatc4t/CTF2025/blob/main/EHAX_CTF2025/Writeup/Img/image-9.png)
 
 - Sử dụng audacity để phân tích file audio.
 
-    ![alt text](image-10.png)
+    ![alt text](https://github.com/AFatc4t/CTF2025/blob/main/EHAX_CTF2025/Writeup/Img/image-10.png)
 
 - Đây là nội dung được để trong bức file audio `:DE9:D4@CC64E`. Sử dụng rot47 để decrypt message được password là `isthiscorrect`.
 
@@ -385,11 +385,11 @@ Flag: EH4X{4.0_13.7015_9.1757_878.6}
 
 # MBR Shenanigans (Rev)
 
-![alt text](image-14.png)
+![alt text](https://github.com/AFatc4t/CTF2025/blob/main/EHAX_CTF2025/Writeup/Img/image-14.png)
 
 # Forensics (Track)
 
-![alt text](image-11.png)
+![alt text](https://github.com/AFatc4t/CTF2025/blob/main/EHAX_CTF2025/Writeup/Img/image-11.png)
 
 ```
 # binwalk chall.mp4
@@ -419,7 +419,7 @@ chall.mp4  _chall.mp4.extracted  flag.zip  image.png  note.md
 ```
 - Sử dụng aperisolve để đọc mã qr được extract từ mp4 có password `$t@cy*1245` sử dụng để unzip flag..
 
-    ![alt text](image-12.png)
+    ![alt text](https://github.com/AFatc4t/CTF2025/blob/main/EHAX_CTF2025/Writeup/Img/image-12.png)
 
 ```
 EH4X{d00fen$hmirt7_l0v3ed_$t4cy}
