@@ -1,7 +1,7 @@
 # RaceAgainstTime (Rev)
 
 
-![alt text](image-1.png)
+![alt text](https://github.com/AFatc4t/CTF2025/blob/main/EHAX_CTF2025/Writeup/Img/image-1.png)
 
 - Ở challenges này ta được cung cấp 1 file `exe` được biên dịch bằng `pyinstaller`. Ta sẽ tiến hành decompile lại file để xem source code của chương trình.
 
